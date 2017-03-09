@@ -1,0 +1,25 @@
+{
+  "name": "basicnodeapi",
+  "version": "1.0.0",
+  "description": "testing node api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryeguy-beaker/basicNodeApi.git"
+  },
+  "author": "Ryan Gagnon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryeguy-beaker/basicNodeApi/issues"
+  },
+  "homepage": "https://github.com/ryeguy-beaker/basicNodeApi#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "request": "^2.80.0"
+  }
+}
