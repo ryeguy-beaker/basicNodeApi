@@ -4,9 +4,6 @@ var bodyParse = require('body-parser');
 var app = express();
 
 app.use(bodyParse.json());
-app.use(bodyParse.urlencoded({
-  extented: true
-}));
 
 var object = require('./objects.js')(app);
 
