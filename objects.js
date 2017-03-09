@@ -22,7 +22,7 @@ module.exports = function(app) {
       _.find(
         _objects,
         {
-          id, req.params.id
+          id: req.params.id
         }
       )
     );
